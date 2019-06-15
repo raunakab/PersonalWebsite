@@ -5,9 +5,12 @@
     <!------------------------------------------------------------------------->
     <!-- Character Set -->
     <meta charset = "UTF-8">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+    </style>
 
     <!-- Title of Webpage -->
-    <title> Raunak Bhagat </title>
+    <title>Raunak Bhagat</title>
 
     <!-- References -->
     <link rel   = "stylesheet"
@@ -28,13 +31,29 @@
   <!-- website body -->
   <body>
     <div class = "parallax_cards_container">
+      <!-- Introduction Card -->
       <div class = "parallax_card--fg introduction_card">
-        <div class = "introduction_card-title_name">
-          <div class = "introduction_card-title_name-name">
-            <p>Raunak Bhagat</p>
+        <!-- Title Name and Traits -->
+        <div id = "introduction_card-titleNameAndTraitscontainer">
+          <!-- Title Name -->
+          <p id = "introduction_card-title_name">Raunak Bhagat.</p>
+
+          <!-- Traits -->
+          <div id = "introduction_card-traits">
+            <p class = "personal_traits">Computer Science.</p>
+            <p class = "personal_traits">Mathematics.</p>
+            <p class = "personal_traits">Artificial Intelligence.</p>
+            <p class = "personal_traits">Web Development.</p>
+            <p class = "personal_traits">Mobile Development.</p>
+            <p class = "personal_traits">Firmware/Robotics Development.</p>
           </div>
         </div>
+
+        <!-- Navigation Slider -->
+        <div id = "introduction_card-navigation_slider"></div>
       </div>
+
+      <!-- Content Card -->
       <div class = "parallax_card--bg content_card_wrapper">
         <div id = "hyper_link_tabs">
           <div class = "content_card" id = "education_link">
